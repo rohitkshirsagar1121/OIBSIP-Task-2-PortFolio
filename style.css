@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Poppins:wght@100&family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(244, 174, 113);
+    height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: transform 0.3 ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    padding: 30px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main{
+    background-color: yellow;
+    width: 100vw;
+    padding: 0 171px;
+    height: 800px;
+}
+
+
+.container{
+    display: flex;
+}
+.infoContainer{
+    background-color: rgb(11, 225, 107);
+    height: 77vh;
+    width: 80vw;
+    margin: 82px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    height: 77vh;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.hello{
+font-size: 3em; 
+
+}
+.name{
+font-weight: bold;
+font-size: 3em;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.about{
+font-size: 2.5em;
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.buttons{
+    margin-top: 25px;
+}
+.btn{
+    padding: 8px 12px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(84, 60, 241);
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(134, 38, 238);
+    background-color: rgb(247, 246, 249);
+}
+.btn-sm {
+    font-size: 9px;
+    padding: 10px 19px;
+    margin: 12px 0px;
+}
+.contactform{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 20px ;
+  
+    margin: 0 88px;
+}
+.contactform h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 92px;
+}
+.contactform form div{
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    /* width: 18vw; */
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+.contactform form{
+    margin: 15px 85px;
+}
+.blogContainer{
+    margin: 88px;
+}
+#emailHelp{
+    font-size: 14px;
+    color: rgb(244, 41, 142);
+    margin: 0 5px;
+}
+#form-Check{
+    flex-direction: row;
+}
+#form-Check input{
+    width: 24px;
+    padding: 3px 0;
+}
+.blogItem{
+    margin: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 23px;
+}
+.p{
+    font-family: 'Poppins', sans-serif;
+}
+.intro{
+    margin: 88px;
+}
+.intro h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Poppins', sans-serif;
+    margin: 12px;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skill{
+    width: 210px;
+    height: 12px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin: 9px;
+}
+.hundred{
+    width: 250px;
+    background-color: rgb(16, 226, 23);
+}
+.fifty{
+    width: 125;
+    background-color: rgba(241, 11, 168, 0.914);
+}
+.t5{
+    width: 75;
+    background-color: rgb(124, 18, 246);
+}
+.t75{
+    width: 187px;background-color: blueviolet;
+}
+/* .sidebarGo{
+    transform: translate(-166px, 0px);
+    position: absolute;
+} */
+.hamburger{
+    position:absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 97px;
+    margin-top: 8px;
+}
+@media (max-width:902px ){
+    /* *{
+        background-color: rgb(251, 138, 138);
+    } */
+    /* .sidebar{
+        transform: translate(-166px, 0px);
+        position: absolute;
+    } */
+    .devpic{
+        display: none;
+    }
+    .intro .blogContainer .contactform{
+        margin: 8px;
+    }
+}
+
